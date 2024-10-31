@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", serif;
+    background-image: url("");
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 400px;
+
+        .head{
+            font-size: 2rem;
+            text-align: center;
+            font-weight: 900;
+        }
+        .time{
+            display: flex;
+            /* gap: 1rem; */
+            justify-content: space-around;
+            width: 100%;
+
+            .boxes{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: blue;
+                align-items: center;
+                width: 30%;
+                height: 100px;
+                border: none;
+                border-radius: 10px;
+                h1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 80%;
+                    color: #fff;
+                }
+                p{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /* padding: 10px; */
+                    width: 100%;
+                    background-color: red;
+                }
+            }
+            
+        }
+        .ampm{
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 0 10px;
+            background-color: black;
+            color: #fff;
+        }
+    }
+}
